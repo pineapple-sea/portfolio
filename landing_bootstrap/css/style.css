@@ -1,0 +1,226 @@
+body {
+	background-color: #111619;
+}
+
+.bg-contain {
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.navbar-dark_edit-colors {
+	color: #455159;
+}
+
+.navbar-brand__logo {
+	width: 100px;
+	height: 29px;
+	background-image: url('../img/ten-x-logo-dark.png');
+}
+
+.icon-phone {
+	width: 23px;
+	background-image: url('../img/icons/phone.png');
+}
+.icon-instagram {
+	width: 17px;
+	background-image: url('../img/icons/instagram.png');
+}
+.icon-facebook {
+	width: 17px;
+	background-image: url('../img/icons/facebook.png');
+}
+.icon-twitter {
+	width: 17px;
+	background-image: url('../img/icons/twitter.png');
+}
+.icon-behance {
+	width: 17px;
+	background-image: url('../img/icons/behance.png');
+}
+
+.carousel-indicator {
+	width: 5px !important;
+	height: 5px !important;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 10px !important;
+}
+.carousel-indicator.active::after {
+	width: 15px;
+	height: 15px;
+	content: "";
+	position: absolute;
+	border: 1px solid #e3711b;
+	border-radius: 50%;
+	left: -5px;
+	top: -5px;
+}
+
+.carousel-indicator.active {
+	background-color: #e3711b !important;
+}
+
+.btn-circle {
+	width: 100px;
+	height: 100px;
+	background-color: #3d213a;
+	border-radius: 50%;
+	border: none;
+	background-image: url('../img/button.png');
+	box-shadow: 0 0 50px #42243e;
+}
+.btn-circle:focus {
+	outline: none;
+}
+
+.block-title {
+	font-size: 50px;
+	font-family: "PlayfairDisplay";
+	color: #ffffff;
+	line-height: 1.4;
+}
+.services-indent {
+	margin-top: 360px;
+}
+
+.signature {
+	width: 130px;
+	height: 110px;
+	background-image: url('../img/signature.png');
+}
+
+.background-map {
+	background-image: url('../img/map.png');
+	margin: 150px 0;
+}
+.article-image-1 {
+	height: 425px;
+	background-image: url('../img/Layer11.png');
+}
+.article-title {
+	font-size: 35px;
+	font-family: "PlayfairDisplay";
+	color: #ffffff;
+	line-height: 1.4;
+}
+
+.btn-gradient-orange {	
+	width: 150px;
+	background: linear-gradient( to left, #ee7d16 0%, #e84b37 100%);
+	color: #ffffff;
+	border-radius: 0;
+}
+.btn-gradient-pink {
+	width: 200px;
+	background: linear-gradient( to right, #6203c7 0%, #d35171 100%);
+	color: #ffffff;
+	border-radius: 0;
+}
+.article-image-2 {
+	height: 425px;
+	background-image: url('../img/Layer12.png');
+	background-position: right;
+}
+
+.portfolio {
+	background-image: url('../img/portfolio.png');
+	margin-top: 150px;
+}
+
+.text-color-white {
+	color: #ffffff;
+}
+.text-color-pink {
+	color: #ac378e !important;
+}
+
+.btn-position {
+	position: absolute;
+	right: 25%;
+}
+
+.services-carousel {
+	background-image: url('../img/Layer21.png') !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 960px;
+}
+
+
+.border {
+	border: 10px solid !important;
+	border-image: url('../img/bg-gradient.png') 50 stretch !important;
+}
+.btn-triangle {	
+	width: 0; 
+	height: 0; 
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid #eb6328;
+	position: absolute;
+    right: -6px;
+    bottom: -26px;
+    transform: rotateZ(45deg);
+    overflow: hidden;
+}
+
+.agility-image {
+	width: 50px;
+	height: 50px;
+	background-image: url('../img/icons/agility.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.team-image {
+	width: 50px;
+	height: 50px;
+	background-image: url('../img/icons/team.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.collaboration-image {
+	width: 50px;
+	height: 50px;
+	background-image: url('../img/icons/collaboration.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.service-item {
+	padding: 20px;
+}
+
+.carousel-active {
+	background-image: url('../img/carusel-gradient.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.text-underline {
+	width: 465px;
+	border-bottom: 2px solid #ac378e;
+	margin: 0 auto;
+}
+
+.gradient-line-left {
+	width: 350px;
+	border-bottom: 2px solid;
+	border-image: linear-gradient(to right, #cd4e75, #6001c8 ) 47% 0%;
+	margin-right: 20px;
+}
+.gradient-line-right {
+	width: 350px;
+	border-bottom: 2px solid;
+	border-image: linear-gradient(to right, #6001c8, #cd4e75 ) 47% 0%;
+	margin-left: 20px;
+}
+
+.nav-item_slash {
+	position: relative;
+}
+.nav-item_slash::after {
+	content: '/';
+	position: absolute;
+	top: 7px;
+	right: 0;
+}
